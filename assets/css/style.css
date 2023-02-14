@@ -1,5 +1,9 @@
 :root {
-
+    --back-geral: rgb(102, 158, 204);
+    --white: #fff;
+    --black: #000000;
+    --gray: #808080;
+    --light-gray: #eeeeee;
     --gap: 3rem;
 }
 
@@ -12,5 +16,21 @@ html {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+
+    background: var(--back-geral);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+}
+
+img {
+    width: 300px;
+}
