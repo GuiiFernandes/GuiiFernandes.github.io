@@ -4,7 +4,7 @@
     --black: #000000;
     --gray: #808080;
     --light-gray: #eeeeee;
-    --gap: 3rem;
+    --gap: 4rem;
 }
 
 html {
@@ -22,7 +22,6 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-
     background: var(--back-geral);
 }
 
@@ -31,6 +30,55 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--white);
 }
 
-img {
-    width: 300px;
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    padding-top: var(--gap);
+    text-align: center;
+    margin: auto;
+    color: var(--back-geral);
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+aside {
+    max-width: 80%;
+    margin: auto;
+    list-style: none;
+}
+
+.body-container {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+
+/* Barra perfil */
+.profile-infos {
+    background: var(--white);
+    width: 50%;
+    padding: var(--gap);
+}
+
+.profile-photo {
+    width: 90%;
+    padding-bottom: 90%;
+    margin: 0 auto;
+    background: url(../img/profile_photo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
 }
