@@ -46,9 +46,14 @@ h2 {
     font-size: 3.5rem;
 }
 
-h4 {
+h3 {
     font-size: 3rem;
-    padding: 1rem 0 0.5rem 0rem;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 2.5rem;
+    padding: 1.5rem 0 0.5rem 0rem;
 }
 
 a {
@@ -134,35 +139,46 @@ nav ul li a:hover{
 }
 
 /* Textos */
-
 .text-container {
-    padding-left: var(--gap);
+    margin: var(--gap);
 }
 
 .text-container h3 {
-    font-size: 3rem;
-    padding: 4rem 0 1.5rem 0rem;
+    padding: 0 0 1.5rem 0rem;
+}
+
+.my-shop {
+    padding: 1rem 0;
+}
+
+article {
+    margin-bottom: 4rem;
 }
 
 article ul {
     list-style: none;
 }
 
+ul li a {
+    color: var(--outer-space);
+}
+
 /* Footer */
 footer {
     width: 100%;
     background-color: var(--outer-space);
+    padding: 2rem 0;
 }
 
 footer h3 {
-    font-size: 2rem;
-    padding: 0.5rem 0 0.5rem 0rem;
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
     text-align: center;
 }
 
 footer div{
     max-width: 80%;
-    margin: auto;
+    margin: 2rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
