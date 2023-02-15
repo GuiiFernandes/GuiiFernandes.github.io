@@ -1,9 +1,10 @@
 :root {
-    --back-geral: rgb(102, 158, 204);
-    --white: #fff;
-    --black: #000000;
-    --gray: #808080;
-    --light-gray: #eeeeee;
+    --moonstone: #639FAB;
+    --champagne: #F5E2C8;
+    --tomato: #F15B43;
+    --black: #000;
+    --outer-space: #484a47;
+    --light-gray: #999999;
     --gap: 4rem;
 }
 
@@ -21,37 +22,38 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
-    background: var(--back-geral);
+    font-size: 2rem;
+    background: var(--moonstone);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--white);
+    color: var(--champagne);
 }
 
 h1 {
     height: 100%;
     font-size: 3.89rem;
     text-align: center;
+    color: var(--champagne);
 }
 
 h2 {
     padding-top: var(--gap);
     text-align: center;
     margin: auto;
-    color: var(--back-geral);
-    font-size: 4rem;
+    color: var(--tomato);
+    font-size: 3.5rem;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 1rem 0 0.5rem 0rem;
 }
 
 a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--champagne);
 }
 
 p {
@@ -72,7 +74,7 @@ nav ul li {
 
 nav ul li a {
     font-size: 1.6rem;
-    color: var(--white);
+    color: var(--champagne);
 }
 
 nav ul li:hover {
@@ -86,7 +88,7 @@ nav ul li a:hover{
 }
 
 .menu-container {
-    background: var(--gray);
+    background: var(--outer-space);
     width: 100%;
     box-shadow: 0rem 0.1rem 0.4rem 0.05rem rgba(0, 0, 0, .2);
 }
@@ -115,7 +117,7 @@ nav ul li a:hover{
 
 /* Barra perfil */
 .profile-infos {
-    background: var(--white);
+    background: var(--champagne);
     width: 50%;
     max-width: 32.9rem;
     padding: var(--gap);
@@ -149,7 +151,7 @@ article ul {
 /* Footer */
 footer {
     width: 100%;
-    background-color: var(--gray);
+    background-color: var(--outer-space);
 }
 
 footer h3 {
