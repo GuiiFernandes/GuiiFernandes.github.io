@@ -44,11 +44,6 @@ h2 {
     font-size: 4rem;
 }
 
-h3 {
-    font-size: 3rem;
-    padding: 4rem 0 1.5rem 0rem;
-}
-
 h4 {
     font-size: 2rem;
     padding: 1rem 0 0.5rem 0rem;
@@ -137,10 +132,36 @@ nav ul li a:hover{
 }
 
 /* Textos */
+
 .text-container {
     padding-left: var(--gap);
 }
 
+.text-container h3 {
+    font-size: 3rem;
+    padding: 4rem 0 1.5rem 0rem;
+}
+
 article ul {
     list-style: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: var(--gray);
+}
+
+footer h3 {
+    font-size: 2rem;
+    padding: 0.5rem 0 0.5rem 0rem;
+    text-align: center;
+}
+
+footer div{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
