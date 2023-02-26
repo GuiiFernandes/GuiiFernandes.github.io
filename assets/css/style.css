@@ -1,19 +1,55 @@
+:root {
+    --verde: rgb(170, 190, 155);
+    --preto: rgb(35, 11, 0);
+    --roboto-mono: 'Ubuntu';
+}
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: var(--roboto-mono), sans-serif;
 }
 
 body {
-    height: 100vh;
-    background-image: url(../img/background.svg);
+  height: 100vh;
+  background-image: url(../img/background.svg);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    text-align: end;
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--preto);
 }
 
 main {
-    
+
 }
