@@ -1,6 +1,10 @@
 :root {
-    --verde: rgb(170, 190, 155);
+    --verde-escuro: rgb(182, 222, 197);
+    --verde-claro: rgb(218, 237, 206);
     --preto: rgb(35, 11, 0);
+    --cinza-escuro: rgb(201, 196, 195);
+    --cinza-medio: rgb(222, 222, 222);
+    --cinza-claro: rgb(230, 230, 230);
     --roboto-mono: 'Ubuntu';
 }
 
