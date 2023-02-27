@@ -58,6 +58,10 @@ nav ul li a {
   color: var(--preto);
 }
 
+nav ul li a:hover {
+    color: var(--verde-escuro);
+}
+
 #btn-home {
   color: var(--verde-escuro);
 }
@@ -133,4 +137,14 @@ button:active {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+}
+
+footer {
+    background-color: var(--preto);
+}
+
+p {
+    color: var(--verde-claro);
+    text-align: center;
+    padding: 1rem 0;
 }
