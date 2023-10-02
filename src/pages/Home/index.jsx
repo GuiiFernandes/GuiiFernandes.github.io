@@ -13,8 +13,8 @@ function Home() {
 
   useEffect(() => {
     typed.current = new Typed(el.current, {
-      strings: ['REACT', 'TAILWIND', 'DOCKER', 'MYSQL',
-        'TYPESCRIPT', 'JSES6', 'REDUX', 'JEST', 'WEB 3'],
+      strings: ['NODEJS', 'EXPRESS', 'SEQUELIZE', 'REACT', 'TAILWIND', 'DOCKER',
+        'MYSQL', 'TYPESCRIPT', 'JSES6', 'VITEST', 'MOCHA', 'WEB 3'],
       typeSpeed: 150,
       backDelay: 1000,
       backSpeed: 150,
