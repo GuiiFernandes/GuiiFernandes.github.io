@@ -30,6 +30,16 @@ const techs = [
     doc: 'https://expressjs.com/',
   },
   {
+    name: 'Sequelize',
+    logo: 'https://www.cdnlogo.com/logos/s/12/sequelize.svg',
+    doc: 'https://sequelize.org/',
+  },
+  {
+    name: 'JWT',
+    logo: 'https://jwt.io/img/pic_logo.svg',
+    doc: 'https://jwt.io/',
+  },
+  {
     name: 'MySQL',
     logo: 'https://www.cdnlogo.com/logos/m/10/mysql.svg',
     doc: 'https://www.mysql.com/',
@@ -80,9 +90,9 @@ const techs = [
     doc: 'https://www.w3.org/Style/CSS/',
   },
   {
-    name: 'ESLint',
-    logo: 'https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg',
-    doc: 'https://eslint.org/',
+    name: 'Styled Components',
+    logo: 'https://styled-components.com/logo.png',
+    doc: 'https://styled-components.com/',
   },
   {
     name: 'Tailwind CSS',
@@ -93,6 +103,11 @@ const techs = [
     name: 'Bootstrap',
     logo: 'https://upload.vectorlogo.zone/logos/getbootstrap/images/987f8f6c-263a-47b1-a85d-853cfca215d9.svg',
     doc: 'https://getbootstrap.com/',
+  },
+  {
+    name: 'ESLint',
+    logo: 'https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg',
+    doc: 'https://eslint.org/',
   },
   {
     name: 'GitHub',
@@ -118,6 +133,11 @@ const techs = [
     name: 'Vite',
     logo: 'https://vetores.org/d/vite-js-logo.svg',
     doc: 'https://vitejs.dev/',
+  },
+  {
+    name: 'Excel',
+    logo: 'https://www.cdnlogo.com/logos/m/53/microsoft-excel.svg',
+    doc: 'https://support.microsoft.com/en-us/excel',
   },
 ];
 

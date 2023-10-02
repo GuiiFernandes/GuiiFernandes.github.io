@@ -82,26 +82,6 @@ export default function InfosAbout() {
         :
         {' '}
         <span className={ styles.green2 }>
-          &#39;Sweet Pet - Estética Animal&#39;
-        </span>
-        ,
-      </p>
-      <p className={ styles[textIndent4] }>
-        <span className={ styles.green1 }>cargo</span>
-        :
-        {' '}
-        <span className={ styles.green2 }>&#39;Gestor Financeiro&#39;</span>
-        ,
-      </p>
-      <p className={ styles[textIndent2] }>&#125;,</p>
-      <p className={ styles[textIndent2] }>
-        &#123;
-      </p>
-      <p className={ styles[textIndent4] }>
-        <span className={ styles.green1 }>empresa</span>
-        :
-        {' '}
-        <span className={ styles.green2 }>
           &#39;Trybe&#39;
         </span>
         ,
@@ -113,6 +93,27 @@ export default function InfosAbout() {
         <span className={ styles.green2 }>&#39;Monitor de Instrução&#39;</span>
         ,
       </p>
+      <p className={ styles[textIndent2] }>&#125;,</p>
+      <p className={ styles[textIndent2] }>
+        &#123;
+      </p>
+      <p className={ styles[textIndent4] }>
+        <span className={ styles.green1 }>empresa</span>
+        :
+        {' '}
+        <span className={ styles.green2 }>
+          &#39;Sweet Pet - Estética Animal&#39;
+        </span>
+        ,
+      </p>
+      <p className={ styles[textIndent4] }>
+        <span className={ styles.green1 }>cargo</span>
+        :
+        {' '}
+        <span className={ styles.green2 }>&#39;Gestor Financeiro&#39;</span>
+        ,
+      </p>
+
       <p className={ styles[textIndent2] }>&#125;]</p>
       <p className={ styles[textIndent2] }>
         <span className={ styles.green1 }>interesses</span>

@@ -6,18 +6,18 @@ export default function ContactForm() {
     <Form action="https://formsubmit.co/guifjj92@gmail.com" method="POST">
       <Title>ENVIE UM E-MAIL</Title>
       <Inputbox>
-        <Input type="text" aria-label="Seu nome" required />
+        <Input type="text" name="name" required />
         <Span>Nome</Span>
         <I />
       </Inputbox>
       <Inputbox>
-        <Input type="email" required />
+        <Input type="email" name="email" required />
         <Span>E-mail</Span>
         <I />
       </Inputbox>
       <TextareaContainer>
         <Inputbox2>
-          <Textarea required />
+          <Textarea name="message" required />
           <Span>Deixe sua Mensagem</Span>
           <I />
         </Inputbox2>

@@ -12,10 +12,9 @@ export default function About() {
           <div className={ styles.techs }>
             <h3>Tecnologias e ferramentas:</h3>
             <div className={ styles['techs-grid'] }>
-              {techs.map(({
-                id, name, logo, doc,
+              {techs.map(({ name, logo, doc,
               }) => (
-                <div key={ id } className={ styles.tech }>
+                <div key={ name } className={ styles.tech }>
                   <a
                     href={ doc }
                     target="_blank"
