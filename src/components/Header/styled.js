@@ -4,6 +4,7 @@ export const HeaderStyle = styled.header`
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 90;
   background: rgb(50,50,50);
   background: linear-gradient(
     0deg,
@@ -12,19 +13,28 @@ export const HeaderStyle = styled.header`
     rgba(50,50,50,1) 100%
   );
 `;
+
 export const Nav = styled.nav`
-  width: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
   max-width: var(--max-width);
   padding-bottom: 10px;
   margin: auto;
   ul {
-    text-align: end;
-    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 20px;
+    padding: 1rem 0;
     li {
       list-style: none;
       display: inline;
       text-align: center;
-      padding: 0 2rem;
       a {
         text-decoration: none;
         color: var(--white);

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const IFrame = styled.iframe`
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 500px;
   border: none;
   border-radius: 1rem;
@@ -23,8 +24,11 @@ export const ContactContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
+  padding: 0 20px;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 `;
 
 export const Aside = styled.aside`

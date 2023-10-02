@@ -10,7 +10,7 @@ export const StatusProject = styled.a`
   position: absolute;
   top: 0;
   right: 0;
-  padding: 10px 20px;
+  padding: 10px;
   color: var(--white);
   text-decoration: none;
   background-color: ${(props) => (props.$status === 'Visitar'
@@ -28,20 +28,27 @@ export const StatusProject = styled.a`
 export const Title = styled.h2`
   position: absolute;
   padding: 10px;
+  max-width: calc(100% - 120px);
+  overflow: hidden;
   text-shadow: 0px 0px 5px rgba(0,0,0,0.8);
   z-index: 2;
   color: var(--light-green);
+  word-break: break-word;
 `;
 
 export const TagsContainer = styled.div`
   position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   bottom: 0;
   left: 0;
   width: 100%;
-  max-width: 430px;
-  overflow-x: scroll;
+  max-height: 45px;
+  max-width: calc(100% - 65px);
+  overflow: scroll;
   display: flex;
-  z-index: 2;
+  z-index: 10;
 `;
 
 export const TagProject = styled.span`
@@ -61,7 +68,8 @@ export const DescriptionProj = styled.div`
   bottom: 0;
   left: 0;
   height: 0px;
-  width: 100%;
+  width: calc(100vw - 80px);
+  max-width: 600px;
   transition: height 0.5s ease;
   overflow: hidden;
   padding: 0 20px 60px 20px;

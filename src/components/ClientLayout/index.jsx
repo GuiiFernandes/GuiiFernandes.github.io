@@ -6,9 +6,7 @@ export default function ClientLayout() {
   return (
     <>
       <Header />
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
       <Footer />
     </>
   );

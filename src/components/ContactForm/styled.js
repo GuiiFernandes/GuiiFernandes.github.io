@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Input = styled.input`
   position: relative;
+  left: 0;
   width: 100%;
   padding: 20px 10px 10px;
   background: transparent;
@@ -98,17 +99,20 @@ export const Inputbox = styled.div`
   position: relative;
   margin-top: 20px;
   width: 100%;
+  max-width: 500px;
 `;
 
 export const Inputbox2 = styled.div`
   position: relative;
   margin-top: 20px;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
 `;
 
 export const TextareaContainer = styled.div`
   height: 170px;
   display: flex;
+  width: 100%;
   align-items: flex-end;
 `;
 
@@ -119,6 +123,7 @@ export const Form = styled.form`
   flex-wrap: wrap;
   max-width: 500px;
   justify-content: space-between;
+  align-items: center;
   gap: 10px;
 `;
 
